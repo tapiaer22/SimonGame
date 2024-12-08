@@ -42,6 +42,7 @@ function startGame(){
   $("#game").css("display", "grid");
   $(".homePage").css("display", "none");
   $(".level").text("Level " + level); 
+  $("#gameOver").remove();
 
   //Add a pattern to start
   setTimeout(addPattern, 500);
