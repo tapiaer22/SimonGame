@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1 class="level">Welcome to the Simon Game</h1>
+  <div class="homePage">
+    <p id="bestStreak">Best streak: <span>0</span></p>
+    <h2>Would you like to start?</h2>
+    <div class="gameOptions">
+      <button id="startYes">Yes</button>
+      <button id="startNo">No</button>
+    </div>
+  </div>
+
+  <div class="game" id="game">
+    <button id="square1" class="square green"></button>
+    <button id="square2" class="square red"></button>
+    <button id="square3" class="square yellow"></button>
+    <button id="square4" class="square blue"></button>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>
